@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ayushypatel/weather-app.git/static/css/main.0f6e8f37.css",
+    "main.js": "/ayushypatel/weather-app.git/static/js/main.9a2d3774.js",
+    "static/js/453.0ccb7fb4.chunk.js": "/ayushypatel/weather-app.git/static/js/453.0ccb7fb4.chunk.js",
+    "index.html": "/ayushypatel/weather-app.git/index.html",
+    "main.0f6e8f37.css.map": "/ayushypatel/weather-app.git/static/css/main.0f6e8f37.css.map",
+    "main.9a2d3774.js.map": "/ayushypatel/weather-app.git/static/js/main.9a2d3774.js.map",
+    "453.0ccb7fb4.chunk.js.map": "/ayushypatel/weather-app.git/static/js/453.0ccb7fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f6e8f37.css",
+    "static/js/main.9a2d3774.js"
+  ]
+}
