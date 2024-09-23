@@ -5,7 +5,7 @@ This is a weather forecast application built using React.js that allows users to
 ## Features
 - **City Search**: Users can search for weather data by entering a city name.
 - **Current Weather**: Displays current temperature, weather condition, and an icon representing the weather.
-- **5-Day Forecast**: Shows a 5-day forecast with high and low temperatures, and weather icons for each day.
+- **5-Day Forecast**: Shows a 5-day forecast with high and low temperatures, and weather icons for each day.(It is only showing three days weather, for display 5 days weather i need paid version for it)
 - **Temperature Unit Conversion**: Users can toggle between Celsius and Fahrenheit.
 - **Responsive UI**: The interface is responsive and adjusts to various screen sizes.
 
