@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import WeatherDisplay from './WeatherDisplay';
+import CitySearch from './CitySearch';
+import FiveDayForecast from './FiveDayForecast';
+import TemperatureToggle from './TemperatureToggle';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const [city, setCity] = useState('London'); // Default city
+    const [unit, setUnit] = useState('metric');  // 'metric' for Celsius, 'imperial' for Fahrenheit
+
+    return (
+        <div>
+            <CitySearch onSearch={setCity} />
+            <TemperatureToggle unit={unit} setUnit={setUnit} />
+            <WeatherDisplay city={city} unit={unit} />
+            <FiveDayForecast city={city} />
+        </div>
+    );
+};
 
 export default App;
